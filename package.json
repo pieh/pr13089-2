@@ -45,6 +45,9 @@
     "type": "git",
     "url": "git+https://github.com/contentful-userland/gatsby-contentful-starter.git"
   },
+  "resolutions": {
+    "gatsby-cli": "file:./gatsby-cli-2.5.9-ink.60.tgz"
+  },
   "scripts": {
     "dev": "gatsby develop",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
